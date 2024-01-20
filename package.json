@@ -6,9 +6,9 @@
     "parcel": "^2.11.0"
   },
   "scripts": {
-    "start": "parcel serve -d dist src/index.html",
-    "build": "parcel build -d build --public-url /repo-name/ src/index.html",
-    "deploy": "gh-pages -d build"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.1.1"
